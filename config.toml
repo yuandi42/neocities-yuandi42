@@ -1,0 +1,7 @@
+baseURL = 'https://yuandi42.neocities.org/'
+languageCode = 'en-us'
+title = "Yuandi's Webpage "
+theme = 'lugo'
+
+[markup.goldmark.renderer]
+unsafe= true

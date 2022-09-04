@@ -1,0 +1,152 @@
+html, body { 
+    margin:0; padding:0;
+}
+html {
+    background-color:#A2BEC0;
+}
+body {
+    min-height:100vh;
+    color:#282828;
+    font-family:monospace,monospace;
+    background-color:#f9f5d7;
+    border-left:5px solid #458588;
+    border-right:5px solid #458588;
+}
+img {
+    border:0;
+    -ms-interpolation-mode:bicubic;
+    vertical-align:middle;
+}
+input, button, textarea, select {
+    font:inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap:break-word;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family:serif;
+}
+h1 { 
+    font-size:2em;
+    color:#62BAC0;
+	text-align: center ;
+}
+h2 {
+    font-size:1.5em;
+}
+h3 {
+    font-size:1.17em;
+}
+h4 {
+    font-size:1.00em;
+}
+h5 {
+    font-size:0.83em;
+}
+h6 {
+    font-size:0.67em;
+}
+
+header {
+    background-color:#3c3826;
+    font-size:smaller;
+    border-bottom:5px solid #458588;
+    border-top:5px solid #458588;
+}
+
+blockquote {
+    background:#ebdbb2;
+    border-left:5px solid #928374;
+    margin:1.5em 10px;
+    padding:0.5em 10px;
+}
+
+kbd {
+    font-family: monospace;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 0px 2px;
+    box-shadow: 1px 1px 1px #3c3836;
+    margin: 2px;
+    font-size: small;
+    vertical-align: text-bottom;
+    background: #928374;
+    font-weight: 500;
+    color: #f2e5bc;
+    cursor: pointer;
+    font-variant: small-caps;
+    font-weight: 600;
+}
+
+
+code {
+    font-family: monospace;
+    background-color: #504945;
+    color: #00ff00;
+    display: inline-block;
+    border-radius: 3px;
+    border: 1px solid #9CEB9F;
+    font-size: small;
+    padding: 0 3px;
+}
+
+section, article, div {
+    margin:0 20px;
+}
+@media (min-width:768px) {
+    body { min-height:100vh; margin:0 auto; max-width:940px; }
+    section, article { margin:0; padding:0 20px; }
+    br.breaker { display:none; }
+    span.hide { display:initial; }
+    nav img { display:initial; }
+}
+
+footer {
+    padding:20px 20px 40px 20px;
+    text-align:center;
+    max-width: 400px ;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+/* unvisited link */
+a:link {
+  color: #458588;
+}
+
+/* visited link */
+a:visited {
+  color: #b16286;
+}
+
+/* mouse over link */
+a:hover {
+  color: #076678;
+}
+
+/* selected link */
+a:active {
+  color: #8f3f71;
+} 
+
+/* For TAGLIST.HTML */
+.taglist {
+	text-align: center ;
+	clear: both ;
+}
+
+/* For NEXTPREV.HTML */
+#nextprev {
+	/* The container for both the previous and next articles. */
+}
+#prevart {
+	float: left ;
+	text-align: left ;
+}
+#nextart {
+	float: right ;
+	text-align: right ;
+}
+#nextart,#prevart {
+	max-width: 33% ;
+}
